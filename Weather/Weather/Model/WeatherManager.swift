@@ -17,7 +17,7 @@ struct WeatherManager {
     var delegate : WeatherManagerDelegate?
     
     let apiUnit = "metric"
-    let apiKey = "a3fb34d4e13d5c7e042b31b375d05f43"
+    let apiKey = "YOU_MUST_GET_YOUR_OWN_API_KEY"
     let apiURL = "https://api.openweathermap.org/data/2.5/onecall?"
     
     func fetchWeather(lat : Double, lon : Double, day : Int) {
